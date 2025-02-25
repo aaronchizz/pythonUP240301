@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # metodologia de la programacion 
 ## UNIVERSIDAD POLITECNICA DE AGUASCALIENTES
 
@@ -8,3 +9,7 @@ Jose Aaron Jimenez Contreras
 UP240301
 
 MTR01A
+
+
+
+
