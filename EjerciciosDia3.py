@@ -63,4 +63,61 @@ print ("el perimetro de el cirulo   es",circun)
 # ejercicio 8
 #Calculate the slope, x-intercept and y-intercept of y = 2x -2
 
+A = 2
+B = -2
+x_intercept = -B/A
+print("pendiente (A):",A) 
+print("interseccion en y(B)", B)
+print("interseccion en x (A)" , A)
+
+#ejercicio 9
+#La pendiente es (m = y2-y1/x2-x1). Halla la pendiente y la distancia euclidiana entre el punto (2, 2) y el punto (6,10)
+x1 = 2
+x2 = 6
+y1 = 2
+y2 = 10
+xC = (y2-y1)/(x2-x1)
+import math
+disEuclidiana = math.sqrt((x2-x1)**2 + (y2-y1)**2)
+print("la pendiente es " , x_intercept)
+print("la disentancia e " , disEuclidiana)
+
+
+#ejercicio 10
+# Compara las pendientes de las tareas 8 y 9.
+
+if A == x_intercept: 
+    print("las p son iguales")
+
+elif A > x_intercept:
+       print("la primera p es mayor")
+
+else:("la segunda p es mayor")   
+
+
+
+
+
+#ejercicio 11
+# Calcula el valor de y (y = x^2 + 6x + 9). Intenta usar diferentes valores de x y averigua en qué valor de x y va a ser 0.
+
+
+
+#ejercicio 12
+# Encuentra la longitud de 'pitón' y 'dragón' y haz una afirmación de comparación falsa.
+
+
+
+#ejercicio 13
+# Use el operador and para verificar si 'on' se encuentra tanto en 'python' como en 'dragon'
+#ejercicio 14
+# Espero que este curso no esté lleno de jerga. Úselo en para verificar si hay jerga en la oración.
+#ejercicio 15
+# No hay 'encendido' tanto en el dragón como en la pitón
+#ejercicio 16
+# Encuentre la longitud del texto python y convierta el valor en float y conviértalo en string
+#ejercicio 17
+# Los números pares son divisibles por 2 y el resto es cero. ¿Cómo se comprueba si un número es par o no usando python?
+#ejercicio 18
+# Compruebe si la división del suelo de 7 por 3 es igual al valor int convertido de 2,7.
 
