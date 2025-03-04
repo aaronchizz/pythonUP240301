@@ -92,24 +92,43 @@ if A == x_intercept:
 elif A > x_intercept:
        print("la primera p es mayor")
 
-else:("la segunda p es mayor")   
+else:
+     print("la segunda p es mayor")   
 
 
 
 
 
 #ejercicio 11
-# Calcula el valor de y (y = x^2 + 6x + 9). Intenta usar diferentes valores de x y averigua en qué valor de x y va a ser 0.
+# Calcula el valor de y (y = x^2 + 6x + 9). Intenta usar diferentes 
+# valores de x y averigua en qué valor de x y va a ser 0.
+xx= int(input("Ingresar el valor de xx:" ))
+yy= ((xx**2)+(6*xx)+9)
+print ("El valor de y es :", " ", yy)
+if yy==0: 
+    print ("yy es igualito a 0.")
+else: 
+    print ("yy no es igualito a 0.")
 
 
 
 #ejercicio 12
 # Encuentra la longitud de 'pitón' y 'dragón' y haz una afirmación de comparación falsa.
+length_python= len('python')
+length_dragon = len('dragon')
+print("Longitud de python:", length_python)
+print("longitud del dragon:", length_dragon)
+#falsa comparacion 
+print("longitud de python no es igual a longitud de dragon:", length_python!= length_dragon )
 
 
 
 #ejercicio 13
 # Use el operador and para verificar si 'on' se encuentra tanto en 'python' como en 'dragon'
+union1= "pyton"
+union2 = "dragon"
+resultado = ("on" in union1 and "on" in union2) 
+print (resultado) 
 #ejercicio 14
 # Espero que este curso no esté lleno de jerga. Úselo en para verificar si hay jerga en la oración.
 #ejercicio 15
