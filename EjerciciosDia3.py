@@ -125,18 +125,100 @@ print("longitud de python no es igual a longitud de dragon:", length_python!= le
 
 #ejercicio 13
 # Use el operador and para verificar si 'on' se encuentra tanto en 'python' como en 'dragon'
-union1= "pyton"
-union2 = "dragon"
-resultado = ("on" in union1 and "on" in union2) 
+c11= "pyton"
+c22 = "dragon"
+resultado = ("on" in c11 and "on" in c22) 
 print (resultado) 
+
 #ejercicio 14
-# Espero que este curso no esté lleno de jerga. Úselo en para verificar si hay jerga en la oración.
+# Espero que este curso no esté lleno de jerga. 
+# Úselo en para verificar si hay jerga en la oración.
+sentence = "jerga"
+resultado = ("jerga" in sentence)
+print(resultado)
+
 #ejercicio 15
 # No hay 'encendido' tanto en el dragón como en la pitón
-#ejercicio 16
-# Encuentre la longitud del texto python y convierta el valor en float y conviértalo en string
-#ejercicio 17
-# Los números pares son divisibles por 2 y el resto es cero. ¿Cómo se comprueba si un número es par o no usando python?
-#ejercicio 18
-# Compruebe si la división del suelo de 7 por 3 es igual al valor int convertido de 2,7.
+c1 = "dragon"
+c2= "python"
+resultado = ("no 'on' " in c1 and " no 'on'" in c2 )
+print (resultado)
 
+
+#ejercicio 16
+# Encuentre la longitud del texto python 
+# y convierta el valor en float y conviértalo en string
+
+texto = "python"
+lt = len("python")
+longitud_float = float (lt)
+longitud_string = str (longitud_float)
+print("python: , python ")
+print("longitud: , longitud")
+print ("longitud(float):", longitud_float)
+print("longitud (string):", longitud_string) 
+
+#ejercicio 17
+# Los números pares son divisibles por 2 y el resto es cero.
+#  ¿Cómo se comprueba si un número es par o no usando python?
+print("el numero es par")
+number = int(input("define el numero"))
+par = number % 2 == 0
+print (f"el numero {number} es par:{par} ")
+
+
+
+#ejercicio 18
+# Compruebe si la división del suelo de 7 por 3 
+# es igual al valor int convertido de 2,7.
+
+division = 7/3
+safe = float (7/3)
+iguana = safe == division
+if iguana:
+     print("7/3 es igual a float(7/3)")
+else:
+     print("el numero no es igual :")
+
+#ejercicio 19
+# Check if type of '10' is equal to type of 10
+
+type = int("10")
+A=(10)
+C=type==A
+print("tipo '10' es igual a 10:",C)
+
+#ejercicio 20
+# Check if int('9.8') is equal to 10
+
+checar = float('9.8')
+case = int (checar)
+diferenciar = 10 
+com= case==diferenciar
+print("int('9.8') es igual a 10:", com )
+
+#ejercicio 21
+#Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+
+horas = float(input("escribe las horas de trabajo:"))
+salario = float(input("escribe cuanto te pagan por hora: " ))
+pago = horas*salario 
+print ("tu pago es de :",pago  )
+
+#ejercicio 22
+#Write a script that prompts the user to enter number of years
+# . Calculate the number of seconds a person can live. Assume a person can live hundred years
+
+Años = int(input("ingrese el numero de años: "))
+segundos_por_año = 60 * 60 * 24 * 365 
+segundos_totales = Años * segundos_por_año 
+print (f"una persona puede vivir aproximadamente:{ segundos_totales } segundos en {Años} años.")
+
+#ejercicio 23
+#Write a Python script that displays the following table
+
+print("1 1 1 1 1")
+print("2 1 2 4 8")
+print("3 1 3 9 27")
+print("4 1 4 16 64")
+print("5 1 5 25 125")
