@@ -223,22 +223,18 @@ else:
 # Divide the countries list into two equal lists if it is even if not one more country for the first half.
 
 print(int(len(p.countries)/2))
-list = p.countries [0:96] 
-print(list)
-
-listd = p.countries [97:193]
-print(listd)
-
-if '' in list:
-    print('la  primer lista es impar : ', p.countries)
-
-else: 
-    print ('la  lista es par')
-
-
+list1 = p.countries [0:96] 
+list2 = p.countries[96:193]
+print("longitud de la primera lista:" , len(list1))
+print("primera lista :" , list1)
+print("longitud de la segunda lista:" , len(list2))
+print("segunda lista :" , list2)
 #ejercicio 2.3
 # ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']. Unpack the first three countries and the rest as scandic countries.
 
+countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+sepcoun = countries [3:]
+print(sepcoun)
 
 
 
