@@ -25,7 +25,7 @@ print("mis hermanos son : " , tpl)
 #ejercicio 4
 #How many siblings do you have?
 
-empty_tuple = ('lizbet'  , 'estefania' , 'yoselin' )
+empty_tuple = ('lizbet'  , 'estefanias' , 'yoselin' )
 empty_tupler = ("carlos",  'Luis')
 tpl = empty_tuple + empty_tupler
 print('Tengo {} hermanos'.format(len(tpl)))
