@@ -34,4 +34,6 @@ print(A.symmetric_difference(B) )
 #ejercicio 7
 #Delete the sets completel
 
+del A
+del B
 
