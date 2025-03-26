@@ -1,8 +1,6 @@
 #ejercicio 1
 #Create an empty dictionary called dog
 
-empty_dict = {}
-
 dog = {}
 
 #ejercicio 2
