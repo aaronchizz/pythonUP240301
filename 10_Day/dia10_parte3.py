@@ -16,6 +16,6 @@ for paises in paises :
 #This is a fruit list, ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop.
 
 print("Orden invertido:")
-fruits = ['banana', 'orange', 'mango', 'lemon'] 
+fruits = ['bananas', 'orange', 'mango', 'lemon'] 
 for fruits in reversed(fruits):
     print(fruits)
