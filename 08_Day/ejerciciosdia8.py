@@ -78,3 +78,4 @@ print(student.clear())
 #Delete one of the dictionaries
 
 del student
+print("revisado")

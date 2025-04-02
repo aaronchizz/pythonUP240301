@@ -27,3 +27,4 @@ print(it_companies)
 
 #si usando remove () el item no se encuentra en el set ,arrojara error
 #en cambio discard no arroja nada
+print("revisado")

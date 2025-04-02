@@ -60,3 +60,5 @@ if fruitToAdd in fruits:
 else:
     fruits.append(fruitToAdd)
     print("Lista modificada: ", fruits)
+
+print("revisado")
