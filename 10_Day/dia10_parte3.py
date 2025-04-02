@@ -1,6 +1,4 @@
-#Exercises: Level 3
-
-
+#ejercicios :level 3
 
 #ejercicio 1
 #Go to the data folder and use the countries.py file. 
@@ -21,12 +19,3 @@ print("Orden invertido:")
 fruits = ['banana', 'orange', 'mango', 'lemon'] 
 for fruits in reversed(fruits):
     print(fruits)
-
-   #ejercicio 3
-   # Go to the data folder and use the countries_data.py file
-
-import paii as datac
-data = datac.paises
-
-#ejercicio 3.1
-#What are the total number of languages in the data
