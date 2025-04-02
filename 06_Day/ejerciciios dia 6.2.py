@@ -67,3 +67,4 @@ if "Iceland" in nordic_countries :
 else:
     print("iceland no es un pais nordico")
 
+print("revisado")

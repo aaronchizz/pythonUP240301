@@ -30,3 +30,5 @@ f = ' i am a teacher and i love to inspire and teach people'
 frase =('i am a teacher and i love to inspire and teach people'.split())
 set_frase = set(frase)
 print ('ahi estan las',len(set_frase),' unicas palabras en la frase: ' , f)
+
+print("revisado")

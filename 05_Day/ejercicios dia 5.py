@@ -236,7 +236,7 @@ countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
 sepcoun = countries [3:]
 print(sepcoun)
 
-
+print("revisado")
 
 
 
