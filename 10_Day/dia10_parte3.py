@@ -19,3 +19,4 @@ print("Orden invertido:")
 fruits = ['bananas', 'orange', 'mango', 'lemon'] 
 for fruits in reversed(fruits):
     print(fruits)
+    
