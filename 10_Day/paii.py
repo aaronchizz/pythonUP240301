@@ -1,5 +1,5 @@
 
-pais = [
+country = [
     {
         "name": "Afghanistan",
         "capital": "Kabul",
