@@ -34,7 +34,7 @@ for country in data:
     for language in country['languages']:
         countryLanguage.append(language)
 numberOfLanguages = len(countryLanguage)
-print('La cantidades de lenguajes en countries_data es: ', numberOfLanguages)
+print('La cantidades de lenguajes  es: ', numberOfLanguages)
 
 #  ejercicio 3.2
 # Find the ten most spoken languages from the data
