@@ -53,3 +53,5 @@ def generateColors (type, num):
         return col
 print('Colores hexadecimales:', generateColors('hexa', 3))
 print('Colores RGB:', generateColors('rgb', 2))
+
+print("Revisado")

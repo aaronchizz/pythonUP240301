@@ -162,3 +162,5 @@ print(sumOfOdds(10))
 def sumOfEven(e):
     return sum(num for num in range(1,e+1)if num %2==0)
 print(sumOfEven(10)) 
+
+print("Revisado")

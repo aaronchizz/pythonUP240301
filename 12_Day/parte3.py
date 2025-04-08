@@ -26,3 +26,4 @@ def randomNum ():
     return list(lstRanum)
 print("Numbers al azar :" , randomNum())
 
+print("Revisado")

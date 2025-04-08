@@ -58,3 +58,5 @@ print("lista de nombres concatenados:" , concanames)
 print("los valores son: 3, 7, 6, 12")
 slope = lambda x1, x2, y1, y2: (y2-y1)/(x2-x1)
 print("la pendiente es:" , slope(3, 7, 6, 12))
+
+print("Revisado")

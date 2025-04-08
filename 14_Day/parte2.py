@@ -127,3 +127,5 @@ print("los primeros 10 paises son :" , list(getFirstCountries(countries2)))
 def getLastTenCountries(lst):
     return lst[-10:]
 print("los ultimos 10 paises son:",list(getLastTenCountries(countries2)))
+
+print("Revisado")

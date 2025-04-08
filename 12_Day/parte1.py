@@ -44,3 +44,5 @@ def rgbColorGen ():
     yellow = random.randint(0,255)
     return (white,pink,yellow)
 print("Colores RGB:" , rgbColorGen())
+
+print("Revisado")
